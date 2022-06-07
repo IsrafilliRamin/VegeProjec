@@ -1,0 +1,1250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+.ul1{
+    display: flex;
+    
+}
+.ul1 li{
+
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.900rem;
+    padding-right: 50px;
+    font-weight: bolder;
+}
+.headright{
+    display: flex;
+    align-items: center;
+}
+.ul1 a{
+
+    color: black;
+}
+.ul2{
+    border: 1px solid rgb(240, 240, 240);
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(255, 253, 253);
+    height: 150px;
+    width: 350px;
+}
+.ul3{
+    border: 1px solid rgb(240, 240, 240);
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(255, 253, 253);
+    height: 200px;
+    width: 250px;
+}
+.ulleft:hover .ul2{
+    visibility: visible;
+    transition: 700ms all;
+}
+.ulfetright:hover .ul3{
+    visibility: visible;
+    transition: 700ms all;
+    right: 10px;
+    
+}
+.ul2 li{
+    padding: 5px;
+    padding-left: 50px;
+    line-height: 15px;
+}
+.ul3 li{
+   
+    padding: 5px;
+    padding-left: 50px;
+    line-height: 15px;
+}
+.ul3 a{
+    
+    color: rgb(77, 77, 77);
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.ul2 a{
+   
+    color: rgb(77, 77, 77);
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+li .ulleft{
+    position: relative;
+}
+
+.border{
+    width:300px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin-left:  17px;
+}
+.border1{
+    
+    border-top: 2px solid lime;
+}
+.border2{
+    margin-left: 30px;
+    width:170px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+   
+}
+.ulleft:hover .ua{
+    color: rgb(1, 214, 1);
+}
+.ulfetright:hover .ua{
+    color: rgb(1, 214, 1);
+}
+
+.button1{
+    background-color: #aad236;
+    border-radius: 5px;
+    height: 32px;
+    width: 120px;
+    border: 1px solid #aad236;
+    font-weight: bolder;
+}
+.button1 a{
+    color: white;
+}
+button:hover{
+    background-color:rgb(253, 251, 251);
+    
+    transition: 500ms all;
+}
+button:hover a{
+    background-color:none;
+    color:#aad236;
+    transition: 500ms all;
+}
+
+#section{
+    position: relative;
+}
+
+#section::before{
+    content: " ";
+    background: url(VegeImg/912808.jpg) no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+    
+}
+.centersec{
+display: grid;
+place-items: center;
+height: 100vh;
+
+
+}
+
+h1{
+    padding-top: 250px;
+    text-align: center;
+    font-size: 50px;
+}
+.secp{
+    text-align: center;
+    color: rgb(85, 85, 85);
+    padding: 0 300px;
+    padding-bottom: 250px;
+}
+.main{
+    margin-bottom: 11px;
+}
+#maincolor{
+    height: 100%;
+    
+}
+.Gridfourcolor{
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+  
+}
+.Color1{
+    height: 100%;
+    padding: 150px 30px;
+    background: #5acda6;
+    
+}
+.Color2{
+    height: 100%;
+    padding: 150px 30px;
+    background: #91ac41;
+}
+.Color3{
+    height: 100%;
+    padding: 150px 30px;
+    background: #e4b476;
+}
+.Color4{
+    height: 100%;
+    padding: 150px 30px;
+    background: #f69dad;
+}
+
+.svgg{
+    transition: 600ms all;
+    margin-left: 110px;
+    height: 100px;
+    width: 100px;
+    fill: white;
+}
+
+h3{
+    margin: 10px 0;
+    margin-left: 125px;
+}
+
+.svgg:hover{
+   transform: scale(1.1);
+   color: aqua;
+   transition: 600ms all;
+   fill: rgb(255, 238, 5);
+}
+
+#vegan{
+    background-color: #f7efcb;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.altutil{
+    display: flex;
+}
+.ustutil{
+    display: flex;
+}
+.ikon svg{
+    height:120px;
+    width: 120px;
+    
+    
+}
+
+.util{
+    height: 150px;
+    width: 150px;
+    background-color: #e3b375;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 50px;
+}
+
+.util .svg1{
+    width: 60px;
+    fill: white;
+    
+}
+
+.util2{
+    height: 150px;
+    width: 150px;
+    background-color: #e3b375;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 50px;
+    
+}
+
+.util2 .svg2{
+    width: 60px;
+    fill: white;
+    
+}
+
+.util3{
+    height: 150px;
+    width: 150px;
+    background-color: #e3b375;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 50px;
+    
+}
+
+.util3 .svg3{
+    width: 60px;
+    fill: white;
+    
+}
+
+.util4{
+    height: 150px;
+    width: 150px;
+    background-color: #e3b375;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 50px;
+    
+    
+}
+
+.util4 .svg4{
+    width: 60px;
+    fill: white;
+    
+}
+.ikon{
+    display: flex;    
+}
+#vegan{
+    display: grid;
+    place-items: center;
+  
+}
+.text{
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 50px;
+}
+h5{
+    font-family: 'Caveat',cursive;
+    font-size: 1.5rem;
+    color: #91ac41;
+}
+
+h4{
+    
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.75rem;
+}
+
+.para{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    color: #8b8b99;
+}
+#according{
+    height: 90vh;
+}
+.acco{
+    display: flex;
+    flex-direction: column;
+}
+.imgapple{
+    border-radius: 50px;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+}
+.imgbanan{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+
+}
+.imgwater{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+
+}
+
+.fruit{
+    display: flex;
+    justify-content: center;
+
+}
+
+.acoleft{
+    height: 400px;
+    width: 300px;
+    background-color: #dbdbe9;
+    text-align: center;
+    padding: 25px 10px;
+    border-top-left-radius: 50px;
+    margin-right: 25px;
+}
+
+.acocenter{
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+    background-color: #dbdbe9;
+    text-align: center;
+    padding: 25px 10px;
+    border-top-left-radius: 50px;
+
+}
+.acoright{
+    height: 400px;
+    width:300px;
+    background-color: #dbdbe9;
+    text-align: center;
+    padding: 25px 10px;
+    border-top-left-radius: 50px;
+    margin-left: 25px;
+
+}
+
+.acoleft p{
+    color: gray;
+    padding-top: 8px;
+}
+.acoright p{
+    color: gray;
+    padding-top: 8px;
+}
+.acocenter p{
+    color: gray;
+    padding-top: 8px;
+}
+
+.straw::before{
+    content: " ";
+    background: url(VegeImg/840849.jpg)no-repeat;object-fit: cover;
+    background-size: 1000px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    padding: 150px 10px;
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    
+   
+}
+
+.strawimg{
+    object-fit: cover;
+    height: 84vh;
+    width: 70%;
+}
+
+#Strawberry{
+    height: 90vh;
+    display: flex;
+}
+
+p b {
+    z-index: 2;
+    font-size: 45px;
+    
+}
+
+.but2{
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    background-color: crimson;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.but2:hover{
+    color: crimson;
+}
+
+input{
+    padding-left: 10px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bs{
+    padding: 10px 0;
+}
+.metinn{
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.texting{
+    display: flex;
+    background-color: #e9e9f1;
+    text-align: center;
+    justify-content: space-around;
+    padding: 35px 0;
+}
+
+.texting div{
+    font-size: 35px;
+}
+
+.texting p{
+    padding-top: 10px;
+    color: #afe217;
+    font-size: 15px;
+}
+
+.fin{
+    height: 500px;
+    width: 700px;
+}
+
+iframe{
+    margin: 100px  500px;
+}
+
+.vime{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #8b8b99;
+}
+.imgh{
+    width: 45%;
+    margin: 0 500px;
+}
+
+.fot1{
+    display: flex;
+   padding: 100px 200px;
+}
+
+.h2fot{font-size: 38px;
+    padding: 15px 0;
+}
+
+.fot2{
+    display: flex;
+    padding: 0 200px;
+}
+
+.fin3{
+    margin-left: 100px;
+}
+
+.fin3 input{
+    height: 55px;
+    width: 400px;
+    background-color: #f2f3f1;
+    border: 1px solid gray;
+    margin: 10px 0;
+
+}
+
+.butfot{
+    height:50px;
+    width: 140px;
+    background-color: #afe217;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.butfot:hover{
+    height:50px;
+    width: 140px;
+    background-color: #f4f5f0;
+    border-radius: 10px;
+    border: 1px solid limegreen;
+    color: #aad236;
+}
+
+.fotfin{
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.fin1 p{
+
+    padding: 10px 0;
+}
+.fin2 p{
+    padding: 10px 0;
+
+}
+
+.fin2{
+    padding-left: 20px;
+}
+
+
+
+@media only screen and (max-width: 1300px){
+    .ul1{
+        display: none;
+       
+    }
+    .Gridfourcolor{
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    #vegan{
+        height: 180vh;
+        padding: 700px 0;
+    }
+    iframe{
+        margin: 100px  200px;
+    }
+    .imgh{
+        width: 45%;
+        margin: 0 300px;
+    }
+    .Color1{
+    
+        padding: 150px 100px;
+        background: #5acda6;
+        
+    }
+    .Color2{
+        
+        padding: 150px 100px;
+        background: #91ac41;
+    }
+    .Color3{
+        
+        padding: 150px 100px;
+        background: #e4b476;
+    }
+    .Color4{
+        
+        padding: 150px 100px;
+        background: #f69dad;
+    }
+}
+
+@media only screen and (max-width: 800px){
+   
+    
+    .ul1{
+        display: none;
+       
+    }
+    .Gridfourcolor{
+        grid-template-columns: 1fr;
+       
+    }
+    #vegan{
+        margin-top: 1000px;
+        height: 100vh;
+
+       
+        
+    }
+    h1{
+        font-size: 15px;
+    }
+    iframe{
+        margin: 100px 35px;
+    }
+    .imgh{
+        width: 100%;
+        margin: 0 10px;
+    }
+    .Color1{
+    
+        padding: 150px 200px;
+        background: #5acda6;
+        
+    }
+    .Color2{
+        
+        padding: 150px 200px;
+        background: #91ac41;
+    }
+    .Color3{
+        
+        padding: 150px 200px;
+        
+        background: #e4b476;
+    }
+    .Color4{
+        
+        padding: 150px 200px;
+        background: #f69dad;
+    }
+
+    #section::before{
+        
+        background: url(VegeImg/912808.jpg) no-repeat;
+        background-size: 110vh 100vh;
+        width: 100%;
+       
+        
+       
+    }
+
+    .fot2{
+        padding: 0 10px;
+        width: 100%;
+    }
+    .fin3 input{
+        height: 55px;
+        width: 200px;
+        background-color: #f2f3f1;
+        border: 1px solid gray;
+        margin: 10px 0;
+        
+    }
+    .text{
+        padding-top: 150px;
+        padding-right: 10px;
+
+    }
+    .ikon{
+        padding-top: 100px;
+    }
+    .util{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+       
+    }
+    .util{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+    }
+    
+    .util .svg1{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util2{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+    }
+    
+    .util2 .svg2{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util3{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+    }
+    
+    .util3 .svg3{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util4{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+        
+    }
+    
+    .util4 .svg4{
+        width: 60px;
+        fill: white;
+        
+    }
+    #according{
+        height: 100vh;
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .head{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .ul1{
+        display: none;
+       
+    }
+    .Gridfourcolor{
+        grid-template-columns: 1fr;
+       
+    }
+    #vegan{
+        margin-top: 1000px;
+        height: 100vh;
+
+       
+        
+    }
+    iframe{
+        margin: 100px 35px;
+        height: 250px;
+        width: 550px;
+    }
+    .imgh{
+        width: 100%;
+        margin: 0 60px;
+    }
+    .Color1{
+    
+        padding: 150px 200px;
+        background: #5acda6;
+        
+    }
+    .Color2{
+        
+        padding: 150px 200px;
+        background: #91ac41;
+    }
+    .Color3{
+        
+        padding: 150px 200px;
+        
+        background: #e4b476;
+    }
+    .Color4{
+        
+        padding: 150px 200px;
+        background: #f69dad;
+    }
+
+    #section::before{
+        
+        background: url(VegeImg/912808.jpg) no-repeat;
+        background-size: 100vh;
+        height: 159%;
+       
+    }
+
+    .fot2{
+        padding: 0 10px;
+        width: 100%;
+    }
+    .fin3 input{
+        height: 55px;
+        width: 200px;
+        background-color: #f2f3f1;
+        border: 1px solid gray;
+        margin: 10px 0;
+        
+    }
+    .text{
+        padding-top: 150px;
+        padding-right: 10px;
+
+    }
+    .ikon{
+        padding-top: 100px;
+    }
+    .util{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+       
+    }
+    .util{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+    }
+    
+    .util .svg1{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util2{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+    }
+    
+    .util2 .svg2{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util3{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+    }
+    
+    .util3 .svg3{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util4{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+        
+    }
+    
+    .util4 .svg4{
+        width: 60px;
+        fill: white;
+        
+    }
+    #according{
+        height: 100vh;
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    .centersec{
+       padding: 120px 30px;
+    
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        text-align: start;
+    }
+    .secp{
+        color: rgb(85, 85, 85);
+        padding: 30px 150px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .ul1{
+        display: none;
+       
+    }
+    .Gridfourcolor{
+        grid-template-columns: 1fr;
+        
+       
+    }
+    #vegan{
+        
+        height: 100vh;
+
+       
+        
+    }
+    iframe{
+        width: 40%;
+        padding-right: 80px;
+
+    }
+    .imgh{
+        width: 68vh;
+        margin: 1px 0;
+    }
+    .Color1{
+        padding: 130px 50px;
+        margin: 0;
+        width: 68.5vh;
+       
+        background: #5acda6;
+        
+    }
+    .Color2{
+        padding: 130px 50px;
+        margin: 0;
+        width: 68.5vh;
+      
+        background: #91ac41;
+    }
+    .Color3{
+        padding: 130px 50px;
+        margin: 0;
+        width: 68.5vh;
+        
+        background: #e4b476;
+    }
+    .Color4{
+        
+        padding: 130px 50px;
+        margin: 0;
+        width: 68.5vh;
+        background: #f69dad;
+    }
+
+    #section::before{
+        
+        background: url(VegeImg/912808.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+       
+    }
+    .ustutil{
+       margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .altutil{
+        display: flex;
+        flex-direction: column;
+    }
+    .fot2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1px 0;
+        width: 100%;
+    }
+    .fin3 input{
+        height: 55px;
+        width: 200px;
+        background-color: #f2f3f1;
+        border: 1px solid gray;
+        margin: 10px 0;
+        
+    }
+    .text{
+        padding-top: 150px;
+        padding-right: 10px;
+
+    }
+    .ikon{
+        padding-top: 0;
+    }
+    
+    .util{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+       
+    }
+    .util{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+    }
+    
+    .util .svg1{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util2{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+    }
+    
+    .util2 .svg2{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util3{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+    }
+    
+    .util3 .svg3{
+        width: 60px;
+        fill: white;
+        
+    }
+    
+    .util4{
+        height: 150px;
+        width: 150px;
+        background-color: #e3b375;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 1px;
+        
+        
+    }
+    
+    .util4 .svg4{
+        width: 60px;
+        fill: white;
+        
+    }
+    #according{
+        height: 150vh;
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    .centersec{
+       padding: 120px 30px;
+    
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        text-align: start;
+    }
+    .secp{
+        color: rgb(85, 85, 85);
+        padding: 30px 150px;
+        text-align: center;
+    }
+    .fruit{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+       
+    }
+    .strawimg{
+        height: 100vh;
+        position: absolute;
+    }
+    .fin1{
+        text-align: center;
+      margin-bottom: 35px;
+    }
+    .fin2{
+        text-align: center;
+        padding-left: 0;
+    }
+    .fot1{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 20px;
+    }
+    .acoright{
+        margin: 0;
+    }
+    .acocenter{
+        margin: 0%;
+        margin: 5px 0;
+    }
+    #Strawberry{
+        height: 100vh;
+    }
+    .straw::before{
+        content: " ";
+        background: url(VegeImg/840849.jpg)no-repeat;object-fit: cover;
+        background-size: 130vh;
+        width: 30%;
+        height: 150vh;
+        position: absolute;
+        opacity: 1;
+        z-index: -1;
+        right: 0;
+        
+       
+    }
+    .strawimg{
+        margin-top: 110px;
+        height:620px;
+    }
+    .metinn{
+        text-align: center;
+        right: 10px;
+        z-index: 99;
+        position: relative;
+    }
+    .head{
+        margin-right: 100px;
+    }
+
+}   
+
+@media only screen and (max-width: 600px){
+    iframe{
+        width: 100%;
+    }
+    *{
+        padding: auto;
+        margin: auto;
+        width: 100;
+    }
+
+}
